@@ -1,0 +1,249 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Hind Mysuru", sans-serif;
+}
+.clear-fix{
+    clear: both;
+}
+p{
+    color: #4e535ea0;
+}
+h2 , h3{
+    color: #4E535E;
+}
+button{
+    padding: 15px 15px;
+    border-radius: 20px;
+    border: 0;
+    color: white;
+}
+.col-aqua{
+    background-color: #24BCA5;
+}
+.col-mov{
+    background-color: #6174FC;
+}
+/*********************header*******************/
+header{
+    padding: 50px;
+    /* background-color: tomato; */
+    text-align: center;
+    background-image: url(./images/bg-header-desktop.png);
+    background-position: center center;
+    background-size: cover;
+    /* border: 2px black solid; */
+}
+/*********************header*******************/
+
+/*********************history*******************/
+.history{
+    width: 60%;
+    margin: auto;
+    padding: 20px 0;
+    /* background-color: aqua; */
+    text-align: center;
+    font-size: 20px;
+    /* border: 2px black solid; */
+}
+span{
+    display: block;
+}
+.history h2{
+    font-size: 2em;
+}
+.history p{
+    font-size: .9em;
+    margin: 20px;
+}
+/*********************history*******************/
+
+/*********************keep-track*******************/
+.keep-track{
+    width: 60%;
+    margin: auto;
+    padding: 30px 0;
+    font-size: 20px;
+    /* background-color: chartreuse; */
+    text-align: center;
+    /* border: 2px black solid; */
+
+}
+.keep-track h2{
+    font-size: 2em;
+}
+.keep-track p{
+    font-size: .9em;
+    margin: 20px;
+}
+/*********************keep-track*******************/
+
+/*********************computer_screen-section*******************/
+.computer_screen-section{
+    padding: 10px 30px;
+    /* background-color: green; */
+    font-size: 20px;
+    /* border: 2px black solid; */
+
+}
+.computer_screen-section .figure{
+    width: 50%;
+    float: left;
+    /* background-color: yellow; */
+}
+.computer_screen-section .figure img{
+    width: 80%;
+}
+.computer_screen-section .content{
+    width: 20%;
+    padding: 50px 0;
+    float: left;
+    /* background-color: tomato; */
+}
+.computer_screen-section h3{
+    font-size: 1em;
+    margin-bottom: 5px;
+}
+.computer_screen-section p{
+    font-size: .8em;
+    margin-bottom: 50px;
+}
+/*********************computer_screen-section*******************/
+
+/*********************access*******************/
+.access{
+    width: 60%;
+    font-size: 20px;
+    /* background-color: #24BCA5; */
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    /* border: 2px black solid; */
+}
+.access h2{
+    font-size: 2em;
+}
+.access p{
+    margin: 10px;
+    font-size: .9em;
+}
+.access img{
+    margin-top: 30px;
+    width: 90%;
+}
+/*********************access*******************/
+
+/*********************supercharge*******************/
+.supercharge{
+    width: 80%;
+    margin: auto;
+    font-size: 20px;
+    /* background-color: tomato; */
+    text-align: center;
+    padding: 50px 0;
+    /* border: 2px black solid; */
+}
+.supercharge h2{
+    font-size: 2em;
+}
+.supercharge h3{
+    font-size: 1em;
+    margin-top: 30px;
+}
+.supercharge p{
+    font-size: .9em;
+    margin:20px 0;
+}
+.supercharge .items{
+    margin: 50px 0;
+}
+.supercharge .items .item{
+    width: 33.3333%;
+    text-align: center;
+    float: left;
+    padding: 0 20px;
+}
+.supercharge .items .item img{
+    width: 13%;
+}
+
+.supercharge .logos .logo{
+    width: calc(100%/5);
+    height: 70px;
+    float: left;
+    display: flex;
+    align-items: center;
+    /* background-color: #6174FC; */
+}
+.supercharge .logos .logo img{
+    width: 70%;
+}
+/*********************supercharge*******************/
+
+/*********************clipboard*******************/
+.clipboard{
+    width: 60%;
+    margin: auto;
+    padding: 50px 0;
+    /* background-color: aqua; */
+    text-align: center;
+    font-size: 20px;
+    /* border: 2px black solid; */
+}
+.clipboard h2{
+    font-size: 2em;
+}
+.clipboard p{
+    font-size: .9em;
+    margin: 20px;
+}
+/*********************clipboard*******************/
+
+/*********************footer*******************/
+footer{
+    width: 85%;
+    margin: auto;
+    padding: 20px 0;
+    /* background-color: green; */
+}
+footer .left-side{
+    width: 80%;
+    float: left;
+    /* background-color: #09c; */
+}
+footer .left-side .logo{
+    width: 25%;
+    /* background-color: aqua; */
+    float: left;
+}
+footer .left-side .logo img{
+    width: 20%;
+}
+footer .left-side .link{
+    width: 25%;
+    float: left;
+    /* background-color: #4E535E; */
+}
+footer .left-side .link li{
+    color: black;
+    list-style-type: none;
+    line-height: 1.7;
+}
+footer .left-side .link a{
+    text-decoration: none;
+    color: #4e535ea0;
+}
+footer .right-side{
+    width: 10%;
+    float: right;
+    padding-top: 20px;
+    /* background-color: #6174FC; */
+}
+footer .right-side img{
+    margin-left: 10px;
+}
+
+/*********************footer*******************/
